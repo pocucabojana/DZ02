@@ -1,0 +1,307 @@
+body {
+	margin: 0;
+	padding: 0;
+	background:#121212 url(slike/slika0.png) repeat;;
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+	color: #5B5B5B;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	color: #000000;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+#ljuska {
+	overflow: hidden;
+	padding: 0px 0px 30px 0px;
+	background: #121212 url(slike/slika0.png) repeat;
+}
+
+.gore {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+
+#header-ljuska {
+	overflow: hidden;
+	height: 600px;
+}
+
+#header {
+	overflow: hidden;
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 0px 0px;
+}
+
+
+
+#logo {
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+#logo h1 {
+	line-height: 120px;
+	letter-spacing: -2px;
+	font-size: 3em;
+}
+
+#logo h1 a {
+	color: #000000;
+	text-transform: uppercase;
+}
+
+#logo p {
+	margin: 0;
+	padding: 0px 0 0 0px;
+	letter-spacing: -1px;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #000000;
+}
+
+#logo p a {
+	color: #000000;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #12212F;
+}
+
+
+#meni {
+	float: right;
+	width: 500px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#meni ul {
+	float: right;
+	margin: 0;
+	padding: 50px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#meni li {
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+
+#meni a {
+	display: block;
+	margin-right: 1px;
+	padding: 5px 15px 15px 15px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #000000;
+	border: none;
+}
+
+#meni a:hover, #meni .trenutna_str a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#meni .trenutna_str a {
+	background: #7D1021;
+	border-radius: 5px;
+}
+
+
+#stranica {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px 0px 30px 0px;
+}
+
+
+
+#sadrzaj {
+	float: left;
+	width: 660px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	overflow: hidden;
+	background: #000000;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+.post .title {
+	padding: 7px 0px 0px 0px;
+	letter-spacing: -1px;
+}
+.post .title a {
+	border: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#prva_kol {
+	float: left;
+	width: 290px;
+	margin-right: 30px;
+}
+
+#druga_kol {
+	float: left;
+	width: 280px;
+}
+
+#treca_kol {
+	float: right;
+	width: 260px;
+}
+
+
+
+#footer {
+	height: 140px;
+	margin: 0 auto;
+	padding: 50px 0 15px 0;
+	font-family: 'Abel', sans-serif;
+	border: 1px solid #171717;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 10px;
+	letter-spacing: 1px;
+	line-height: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000000;
+}
+
+#baner {
+	margin: 0px auto;
+	width: 1000px;
+	height: 440px;
+	background: url(slike/slika2.png) no-repeat left bottom;
+}
+
+#baner .sadrzaj img {
+	background: #FFFFFF;
+	border-radius: 15px;
+}
+
+.list-style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style1 a {
+	color: #FFFFFF;
+}
+
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #171717;
+	line-height: 160%;
+}
+
+ul.style1 a {
+	display: block;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	color: #000000;
+}
+
+ul.style1 a:hover {
+	text-decoration: underline;
+}
+
+
+#cetvrti-deo {
+	
+	width: 1000px;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+#cetvrti-deo h2 {
+	padding: 0px 0px 20px 0px;
+	font-size: 30px;
+}
+
+#cetvrti-deo #prva_kol {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+#cetvrti-deo #druga_kol {
+	float: left;
+	width: 300px;
+}
+
+#cetvrti-deo #treca_kol {
+	float: right;
+	width: 300px;
+}
+
+#cetvrti-deo img {
+	background: #000000;
+	border-radius: 15px;
+}
+
+.button a {
+	display: block;
+	float: left;
+	width: 88px;
+	padding: 5px 5px;
+	margin-right: 10px;
+	background: #132434 url(slike/slika3.jpg) repeat;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
